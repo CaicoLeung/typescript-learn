@@ -20,7 +20,7 @@ type Param = ParamType<Func>; // Dog
 type TypeString = ParamType<string>; // string
 type TypeBoolean = ParamType<boolean>; // boolean
 
-/* keyod
+/* keyof
 * keyof 可以用来取得一个对象接口的所有 key 值：
  */
 type KeyOfPerson = keyof Person; // "name" | "age" | "sex"
